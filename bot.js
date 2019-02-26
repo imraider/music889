@@ -235,7 +235,7 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`بدء تشغيل: **${song.title}**`);
 }
-const developers = ["504801046728671238"]
+const developers = ["514857011113099289"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
